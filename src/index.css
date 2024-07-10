@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header,
+.Nav,
+.Footer,
+.Home,
+.NewPost,
+.PostPage,
+.About,
+.Missing {
+  margin: 20px;
+}
+
+.Header h1 {
+  font-size: 2rem;
+}
+
+.Nav form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Nav input {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 10px;
+}
